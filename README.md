@@ -1,29 +1,16 @@
-# vue-wiki-countries
+# Vue-wiki-countries
+This is a Wikipedia of countries builded from a JSOn dataset of countries
+Bootstrap V4 is used for the design 👍.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Components
+There are 3 components:
 
-## Recommended IDE Setup
+Navbar: Displays the basic navbar with the LAB name.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+CountriesList: Displays the list of links with the country names. Each link is a vue-router-dom router-link which we is used to send the country code.
 
-## Customize configuration
+CountryDetails: Is the component that renders via the vue-router's Route and receives the country code via the URL.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![vueWiki](https://user-images.githubusercontent.com/112575528/203944095-5f57cb8d-be31-442a-9dad-0c24f33c82df.gif)
